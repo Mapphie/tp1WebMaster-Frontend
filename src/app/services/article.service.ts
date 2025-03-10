@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ArticleService {
-  private apiUrl = 'http://127.0.0.1:5000/articles';
+  private apiUrl = 'https://tp1webmaster-backend.onrender.com/articles';
   constructor(private http: HttpClient) { }
 
   getArticles(): Observable<any>{
